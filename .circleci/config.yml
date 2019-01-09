@@ -32,5 +32,6 @@ jobs:
           name: Build debug APK and release APK
           command: |
             ./gradlew :app:assembleDebug
-            ./gradlew :app:assembleDebugAndroidTest
+            
+#         ./gradlew :app:assembleDebugAndroidTest
 #       # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy example
